@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS `mdetails` (
+  `srno.` int(3) NOT NULL,
+  `medicine name` varchar(40) NOT NULL,
+  `max stock` int(3) NOT NULL,
+  `avilable stock` int(3) NOT NULL,
+  PRIMARY KEY (`srno.`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `mdetails`
+--
+
+INSERT INTO `mdetails` (`srno.`, `medicine name`, `max stock`, `avilable stock`) VALUES
+(1, 'DISPRIN', 60, 30);
